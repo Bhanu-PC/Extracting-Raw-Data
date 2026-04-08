@@ -71,8 +71,8 @@ def extract_ppt_contents(pptx_path, output_csv, image_output_dir="extracted_imag
 
 
 if __name__ == "__main__":
-    pptx_file = "C:/Users/prakabha/Documents/AI-RAG system/Azure open AI+python.pptx"
-    output_csv = "C:/Users/prakabha/Documents/AI-RAG system/ppt_extracted_content.csv"
-    image_folder = "C:/Users/prakabha/Documents/AI-RAG system/ppt_images"
+    pptx_file = "C:/"           #replace with your respective path
+    output_csv = "C:/"
+    image_folder = "C:/"
 
     extract_ppt_contents(pptx_file, output_csv, image_folder)

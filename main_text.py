@@ -8,7 +8,7 @@ print(f"PPTX version: {Presentation.__module__}")
 print("CSV file is saved in:", os.getcwd())
 
 def extract_text_from_pptx(pptx_path, output_csv):
-    prs = Presentation("C:/Users/prakabha/Documents/AI-RAG system/Azure open AI+python.pptx")
+    prs = Presentation("C:/")  #replace your path
     rows = []
 
     for slide_index, slide in enumerate(prs.slides, start=1):
@@ -29,6 +29,6 @@ def extract_text_from_pptx(pptx_path, output_csv):
 
 
 if __name__ == "__main__":
-    pptx_file = "C:/Users/prakabha/Documents/AI-RAG system/Azure open AI+python.pptx"   # replace with your file path
-    csv_file = "C:/Users/prakabha/Documents/AI-RAG system/output_text.csv"
+    pptx_file = "C:/"   # replace with your file path
+    csv_file = "C:/Users/"
     extract_text_from_pptx(pptx_file, csv_file)
